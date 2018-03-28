@@ -5,7 +5,7 @@ Applications permettant de gérer en direct des paris en ligne gratuitement (URL
 
 Pour faire un test avec un compte 
   - identifiant : Pierre
-  -Mot de Passe : password
+  - Mot de Passe : password
 
                 
                 

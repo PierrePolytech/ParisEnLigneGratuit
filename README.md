@@ -19,4 +19,4 @@ Fonctionnalités:
 Technologie
   - Database SQL
   - Back-end PHP ( sans Framework)
-  - Front-end HTML CSS Javascript
+  - Front-end HTML CSS Javascript / 100% responsive (bootstrap) 

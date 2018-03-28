@@ -1,0 +1,1027 @@
+
+@media (min-width: 767px) { 
+	a{
+		margin-right: 2vh;
+		margin-left: 2vh;	
+	}
+}
+
+@media (max-width: 767px) { 
+	a{
+		margin-right: 1vh;
+		margin-left: 1vh;
+	}
+}
+
+#gestion_compte{
+	margin-top: 2vh;
+	vertical-align: top;
+	right: 0;
+}
+
+a[name="boutton_entete"]{
+	display: inline;
+}
+
+
+#entete{
+	background-color: black;
+}
+
+#boutton_inscription{
+  font-size: 14px;
+    color: white;
+    font-weight:700;
+    background: -webkit-linear-gradient(#e74042, #b20e10);
+    background: -moz-linear-gradient(#e74042, #b20e10);
+    background: -ms-linear-gradient(#e74042, #b20e10);
+    background: -o-linear-gradient(#e74042, #b20e10);
+}
+#boutton_connecte{
+	color: #bbb;
+	font-weight:700;
+	background: transparent;
+	font-size: 90%;
+}
+
+#boutton_connecte:hover{
+	color: white;
+	text-decoration: none;
+}
+
+#boutton_entete_droite{
+  float: right;
+}
+
+
+a[name="a_nav_bar"]{
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+    color: #bbb;
+    font-weight: 700;
+    font-size: 90%;
+    width: 100%;
+    padding: 8px 25px 8px 25px;
+    margin: 0%;
+    display: block;
+}
+a[name="a_nav_bar"]:hover{
+	color: #fff;
+}
+li[name="li_nav_bar"]:hover{
+	background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px 4px 0 0;
+}
+
+li[name="li_nav_bar"]{
+	display: inline-block;
+}
+
+ul{
+	margin:0%;
+  padding: 0%;
+}
+
+/*CORPS*/
+
+#corps{
+	margin-top: 2%;
+}
+
+.group-list, .nav__list{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+ol, ul { list-style: none }
+
+blockquote, q { quotes: none }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none
+}
+a[name="a_menu"]{
+	margin: 0%;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+body{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+}
+
+
+
+.breadcrumb{
+	background: -webkit-linear-gradient(white, #dddddd);
+background: -moz-linear-gradient(white, #dddddd);
+background: -ms-linear-gradient(white, #dddddd);
+background: -o-linear-gradient(white, #dddddd);
+  margin-bottom:1%;
+}
+.nav a, .nav label {
+  display: block;
+  padding: 2%;
+  padding-left: 6%;
+  color: black;
+  font-weight: 700;
+  margin: 0%;
+}
+label[name="label_menu"]{
+	background: -webkit-linear-gradient(white, #bbb);
+  background: -moz-linear-gradient(white, #bbb);
+  background: -ms-linear-gradient(white, #bbb);
+  background: -o-linear-gradient(white, #bbb);
+}
+.nav label[name="label_menu"]:focus, .nav label[name="label_menu"]:hover {
+  color: white;
+  background: -moz-linear-gradient(#434343, #202020);
+background: -webkit-linear-gradient(#434343, #202020);
+background: -ms-linear-gradient(#434343, #202020);
+background: -o-linear-gradient(#434343, #202020);
+}
+
+.nav label { cursor: pointer; }
+
+
+
+.group-list a, .group-list label {
+  padding-left: 10%;
+  background: #f1f1f1;
+  color: black;
+  box-shadow: inset 0 -1px #373737;
+  font-size: 80%;
+}
+
+.group-list a:focus, .group-list a:hover, .group-list label:focus, .group-list label:hover { 
+  background: white;
+  text-decoration: none;
+  color: black; 
+}
+
+
+
+.group-list {
+  height: 100%;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height .5s ease-in-out;
+  transition: max-height .5s ease-in-out;
+}
+
+.nav__list input[type=checkbox]:checked + label + ul { 
+max-height: 1000px; }
+
+
+label > span {
+  float: right;
+  -webkit-transition: -webkit-transform .65s ease;
+  transition: transform .65s ease;
+}
+
+.nav__list input[type=checkbox]:checked + label > span {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+
+#div_div_affichage_matchs{
+  margin: 0%;
+padding: 0%;
+}
+/*MATCH*/
+i[class="calendar"]{
+  color: #b20e10;
+  font-weight: 600;
+}
+
+div[name="colonne"]{
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+kbd[class="heure_match"]{
+  display: inline-block;
+  position: relative;
+  font-size: 85%;
+  max-width: 8%;
+}
+
+p[class="nom_match"]{
+  display: inline-block;
+  font-weight: 800;
+  font-size: 90%;
+  width: 45%;
+  position: relative;
+  text-align: center;
+  vertical-align: text-top;
+}
+
+div[name="boutton1"]{
+  display: inline-block;  
+  font-size: 60%;
+  margin: 0%;
+}
+
+div[name="boutton2"]{
+  display: inline-block;  
+  font-size: 60%;
+  margin: 0%;
+}
+div[name="bouttonNul"]{
+  display: inline-block;  
+  font-size: 60%;
+  margin: 0%;
+}
+div[name="divbouttonParisSup"]{
+  display: inline-block;  
+  font-size: 60%;
+  margin: 0%;
+  margin-left: 2%;
+}
+
+p {
+    margin: 0 0 5px;
+}
+
+
+a[name="bouttonParisSup"]{
+    font-size: 150%;
+    border-radius: 2px;
+    border: 1px solid #aaa;
+    color: #b20e10;
+    font-weight: 700;
+}
+a[name="bouttonParisSup"]:hover{
+    background-color: #b20e10;
+    color: #fff;
+    border-radius: 2px;
+}
+
+div[name="divbouttonAutres"]{
+  display: inline-block;  
+  font-size: 60%;
+  margin: 0%;
+  margin-left: 1%;
+}
+
+div[name="entete_saison"] {
+    background: -webkit-linear-gradient(#434343, #202020);
+    background: -moz-linear-gradient(#434343, #202020);
+    background: -ms-linear-gradient(#434343, #202020);
+    background: -o-linear-gradient(#434343, #202020);
+    color: #eee;
+    height: 26px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 27px;
+    padding: 0 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    border-radius: 2px;
+    margin-bottom: 2%;
+}
+
+div[name="choix_saison"]{
+  width: 100%;
+}
+p[name="equipe_saison"]{
+  width: 70%;
+  padding:1%; 
+  display: inline-block;
+  font-size: 90%;
+}
+
+div[name="div_boutton_saison"]{
+  width: 28%;
+  display: inline-block;
+}
+
+a[name="boutton_saison"]{
+  width: 100%;
+  font-size: 80%;
+  text-align: center;
+margin: auto;
+}
+
+div[name="div_boutton"]{
+  width: 47%;
+  display: inline-block;
+  font-size: 90%;
+  text-align: center;
+}
+
+.btn{
+  font-size: 10px;
+  
+}
+a[name="bouttonSup"]{
+	display: inline-block;
+	width: 20%;
+}
+p[name="texteParisSup"]{
+	display: inline-block;
+	width: 70%;
+  margin-left: 4%;
+  font-size: 100%;
+}
+h6{
+	font-size: 140%;
+	font-weight: bold;
+}
+h5{
+	display: inline;
+}
+
+a[name="boutton_retour"]{
+	float: right;
+}
+
+a[name="bouttonSup"]{
+  margin: 1px;
+}
+
+/*COteneur paris*/
+
+#p_parie{
+	color: white;
+	text-align: left;
+	background : -moz-linear-gradient(#434343, #202020);
+	background: -webkit-linear-gradient(#434343, #202020);
+	background: -ms-linear-gradient(#434343, #202020);
+    background: -o-linear-gradient(#434343, #202020);
+	border-radius: 5px 5px 0px 0px;
+	font-size: 90%;
+}
+
+#p_parie i{
+	margin: 2%;
+}
+
+#affichage_init_paris_conteneur{
+	border:1px solid;
+	border-color: #bbb;
+	border-radius: 5px 5px 10px 10px;
+	background-color: transparent;
+}
+
+p[name="description"]{
+	text-align: justify;
+	margin: 5px;
+	font-size: 90%;
+}
+
+#affichage_paris_conteneur{
+	border:1px solid;
+	border-color: #bbb;
+	border-radius: 5px 5px 10px 10px;
+	background-color: transparent;
+}
+
+div[name="paris_matchs"]{
+	background: #e8e8e8;
+	border-radius: 7px;
+	margin: 2%;
+	padding: 2%;
+}
+
+input[name="Valeur_mise"]{
+	width: 90px;
+	float: right;
+	color:black;
+	font-size: 90%;
+}
+
+
+p[name="id_match"]{
+	font-weight: bold;
+	font-size: 90%;
+	width: 95%;
+	display: inline-block;
+}
+
+p[name="id_cote"]{
+	font-weight: bold;
+	text-align: right;
+	margin-right: 3%;
+	font-size: 90%;
+}
+p[name="id_paris"]{
+	font-size: 90%;
+}
+p[name="gain_potentiel"]{
+	font-weight: bold;
+	float: right;
+	width: 30%;
+text-align: right;
+	font-size: 90%;
+}
+b{
+	margin-right: 1%;
+	margin-left: 1%;
+}
+#cote_totale_combine{
+	font-size: 90%;
+}
+#cote_totale_combine>p{
+  margin-right: 2%;
+}
+#gains_globals_combine{
+	font-size: 90%;
+}
+
+#gains_globals{
+	font-size: 90%;
+}
+#mises_globales{
+	font-size: 90%;
+}
+
+i[class="fa fa-times"]{
+	width: 5%;
+	display: inline-block;
+  margin-right: 0%;
+}
+
+div[class="form-group"]{
+	width: 100%;
+}
+
+label{
+	height: 100%;
+	margin-top: 2%;
+	font-size: 90%;
+}
+
+#totale_paris{
+	background-color: black;
+	padding: 2%;
+	color:white;
+	border-radius: 0px 0px 10px 10px;
+	font-weight: bold;
+}
+
+#boutton_valide_paris{
+	background:-moz-linear-gradient(#ffea5e, #ffd614);
+	background: -webkit-linear-gradient(#ffea5e, #ffd614);
+	background: -ms-linear-gradient(#ffea5e, #ffd614);
+    background: -o-linear-gradient(#ffea5e, #ffd614);
+	color: black;
+	width: 90%;
+	float: center;
+}
+
+
+p[name="valeur_totale"]{
+	float: right;
+  width: 30%;
+text-align: right;
+}
+
+i[class="fa fa-fw fa-trash-o"]{
+	float: right;
+}
+
+#gains_globals_combine{
+	width: 100%;
+	float: right;
+}
+#Type_combine>a{
+	background-color: #bbb;
+	color: white;
+	font-weight: 700;
+	font-size: 90%;
+}
+
+#Type_simple>a{
+	background-color: #bbb;
+	color: white;
+	font-weight: 700;
+	font-size: 90%;
+}
+#Type_combine[class="active"]>a{
+	background-color: white;
+	color:black;
+}
+#Type_combine[class="disabled"]>a{
+	background-color: white;
+	color:white;
+}
+
+#Type_simple[class="active"]>a{
+	background-color: white;
+	color: black;
+}
+#form_connexion{
+  position: absolute;
+  z-index: 4;
+  background-color: #f1f1f1;
+  width: 240px ;
+  right: 25px;
+  top: 40px;
+  border-radius: 5px;
+  text-align: center;
+  border :1px solid #bbb;
+}
+.form-control{
+  width: 200px;
+  margin-left: 20px;
+}
+
+.form-horizontal .form-group {
+    margin: 0;
+}
+
+.btn-success{
+  margin-bottom: 5%;
+}
+
+/*gestion compte*/ 
+
+#logo_compte{
+  color: #fff;
+  text-align: center;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  font-weight: 700;
+  padding-left: 0;
+  padding-right:0; 
+  margin-left: 0;
+  text-decoration: none;
+      background-color: black;
+    border: black;
+}
+
+.btn-group, .btn-group-vertical{
+  float: right;
+}
+.dropdown-menu>li>a {
+    padding: 3px 10px;
+}
+
+div[name="solde"]{
+  display: inline-block;
+  font-weight: normal;
+  font-size: 80%;
+  color: #fff;
+  float: right;
+}
+p[name="point"]{
+  font-weight: 800;
+  font-size: 110%;
+  text-align: center;
+}
+p[name="text_solde"]{
+  text-align: center;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+span[name="points_solde"]{
+  display: inline-block;
+}
+
+p[name="drop_pseudo"]{
+  display: inline;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.btn-group{
+margin-right:10px;
+}
+#logo_compte[aria-expanded="true"]>#double_fleche{
+ -webkit-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+transform: rotate(90deg);
+}
+
+
+#double_fleche{
+  margin-left: 5px;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+.fa{
+    width: 1.28571429em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+div[name="corpsprincipale"]{
+  width: 100%;
+}
+
+#span_nbre_paris{
+  color: yellow;
+}
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+@media (max-width: 500px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+@media (min-width: 500px) and (max-width: 900px) {
+  .modal-content {
+    width: 70%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1200px) {
+  .modal-content {
+    width: 60%;
+  }
+}
+@media (min-width: 1200px) {
+  .modal-content {
+    width: 25%;
+  }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* popup*/
+div[name="match_simple"]{
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  margin: 2%;
+  padding: 1%;
+}
+
+p[name="titre_match"]{
+  text-align: center;
+  font-weight: 700;
+}
+p[name="mise_match"]{
+  display: inline;
+}
+p[name="cote_match"]{
+  float: right;
+}
+
+span{
+  font-weight: bold;
+}
+p[name="cote_match_combine"]{
+  text-align: right;
+}
+
+p[name="mise_combine"]{
+  display: inline;
+}
+
+p[name="cote_totale_combine"]{
+  float: right;
+}
+
+div[name="footer_combine"]{
+  border-radius: 8px;
+  background-color: #f1f1f1;
+}
+div[name="match_combine"]{
+  margin-bottom: 2%;
+  border-bottom: 0.5px solid #bbb;
+}
+
+p[name="erreur"]{
+  color: rgb(169, 68, 66);
+  font-weight: 700;
+  text-align: center;
+}
+
+p[name="match_non_dispo"]{
+  font-weight: 700;
+  text-align: center;
+}
+
+p[name="match_non_dispo2"]{
+  font-weight: 700;
+  text-align: center;
+}
+
+.minimized{
+  background: url("../Images/foldbar_min.png")no-repeat bottom;
+} 
+.etire{
+  background: url("../Images/foldbar_etire.png") no-repeat bottom;
+}
+
+span[name="fleche_voir"]{
+  color: #525252;
+  text-align: center;
+  padding: 0 0 0 0;
+  display: block;
+  position: relative;
+  width: 100%;
+  font-size: 9px;
+  height: 25px;
+}
+
+p[name="nom_sport"]{
+  display: inline-block;
+  font-size: 170%;
+  font-weight: 700;
+  padding-right: 2%;
+}
+
+p[name="nom_event"]{
+  display: inline-block;
+  font-size: 130%;
+  font-weight: 550;
+}
+
+p[name="date_match_sup"]{
+  color: #999;
+  font-size: 100%;
+vertical-align: baseline;
+}
+/*Icone sport*/
+
+[class^="sport-icon-"]{
+    height: 16px;
+    width: 16px;
+    background-image: url("../Images/sports-icons.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.sport-icon-1 { 
+    background-position: -2px -2px;
+}
+
+.sport-icon-2 {
+    background-position: -42px -22px;
+}
+.sport-icon-3 {
+    background-position: -42px -42px;
+}
+.sport-icon-4 {
+    background-position: -22px -62px;
+}
+
+.sport-icon-5 {
+    background-position: -42px -62px;
+}
+.sport-icon-6 {
+    background-position: -62px -62px;
+}
+.sport-icon-7 {
+    background-position: -2px -42px;
+}
+.sport-icon-9 {
+    background-position: -82px -2px;
+}
+.sport-icon-10 {
+    background-position: -82px -62px;
+}
+.sport-icon-11 {
+    background-position: -22px -2px;
+}
+.sport-icon-12 {
+    background-position: -42px -2px;
+}
+.sport-icon-14 {
+    background-position: -82px -22px;
+}
+.sport-icon-17 {
+    background-position: -2px -22px;
+}
+
+#image_logo{
+  width: 120px;
+  margin-top: 1vh;
+}
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  ul[name="nav_bar_entete"]{
+    margin-left: 25%;
+  }
+  .btn{
+    margin:4%;
+    padding: 6px 12px;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  ul[name="nav_bar_entete"]{
+    margin-left: 20%;
+  }
+  .btn{
+    margin:4%;
+    padding: 6px 12px;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  label[name="label_menu"]{
+    font-size: 85%;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 15%;
+  }
+  a[name="a_nav_bar"] {
+    font-size: 85%;
+  }
+  .group-list a, .group-list label {
+    font-size: 65%;
+  }
+  #p_parie{
+    font-size: 80%;
+  }
+  p[name="description"]{
+    font-size: 70%;
+  }
+  .btn{
+    margin:2%;
+    padding: 6px 10px;
+  }
+  kbd[class="heure_match"] {
+    font-size: 72%;
+  }
+  p[name="texteParisSup"] {
+    font-size: 80%;
+  }
+  input[name="Valeur_mise"]{
+  font-size: 80%;
+}
+
+
+p[name="id_match"]{
+  font-size: 80%;
+}
+
+p[name="id_cote"]{
+  font-size: 80%;
+}
+p[name="id_paris"]{
+  font-size: 80%;
+}
+p[name="gain_potentiel"]{
+  font-size: 80%;
+}
+#cote_totale_combine{
+  font-size: 80%;
+}
+  #gains_globals_combine{
+    font-size: 80%;
+  }
+  label{
+    font-size: 80%;
+  }
+
+  #gains_globals{
+    font-size: 80%;
+  }
+  #mises_globales{
+    font-size: 80%;
+  }
+  #Type_combine>a{
+    font-size: 80%;
+  }
+
+  #Type_simple>a{
+    font-size: 80%;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px) {
+  #p_parie{
+    font-size: 80%;
+  }
+  p[name="description"]{
+    font-size: 70%;
+  }
+  label[name="label_menu"]{
+    font-size: 80%;
+  }
+  a[name="a_nav_bar"] {
+    font-size: 77%;
+    padding: 8px 20px 8px 20px;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 5%;
+  }
+  #image_logo{
+    width: 75px;
+  }
+  #boutton_connecte {
+    font-size: 75%;
+  }
+  #gestion_compte{
+    margin-top: 1vh;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 0%;
+  }
+  #boutton_inscription{
+    font-size: 10px;
+  }
+  .group-list a, .group-list label {
+    font-size: 75%;
+  }
+  .btn{
+    margin:2%;
+    padding: 6px 11px;
+  }
+  p[name="texteParisSup"] {
+    font-size: 80%;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  label[name="label_menu"]{
+    font-size: 75%;
+  }
+  a[name="a_nav_bar"] {
+    font-size: 75%;
+    padding: 8px 15px 8px 15px;
+  }
+  .group-list a, .group-list label {
+    font-size: 70%;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 0%;
+  }
+  #image_logo{
+    width: 75px;
+  }
+  #boutton_connecte {
+    font-size: 75%;
+  }
+  #gestion_compte{
+    margin-top: 1vh;
+  }
+  #boutton_inscription{
+    font-size: 10px;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 0%;
+  }
+  .btn{
+    margin:1%;
+    padding: 6px 10px;
+  }
+  p[name="texteParisSup"] {
+    font-size: 75%;
+  }
+  kbd[class="heure_match"] {
+    display: none;
+  }
+}

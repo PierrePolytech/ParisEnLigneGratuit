@@ -1,0 +1,376 @@
+
+@media (min-width: 767px) { 
+    a{
+        margin-right: 2vh;
+        margin-left: 2vh;   
+    }
+}
+
+@media (max-width: 767px) { 
+    a{
+        margin-right: 1vh;
+        margin-left: 1vh;
+    }
+}
+
+#gestion_compte{
+    margin-top: 2vh;
+    vertical-align: top;
+    right: 0;
+}
+
+a[name="boutton_entete"]{
+    display: inline;
+}
+
+
+#entete{
+    background-color: black;
+}
+
+#boutton_inscription{
+    color: white;
+    font-weight:700;
+    background: -webkit-linear-gradient(#e74042, #b20e10);
+    background: -moz-linear-gradient(#e74042, #b20e10);
+    background: -ms-linear-gradient(#e74042, #b20e10);
+    background: -o-linear-gradient(#e74042, #b20e10);
+}
+#boutton_connecte{
+    color: #bbb;
+    font-weight:700;
+    background: transparent;
+    font-size: 90%;
+}
+
+#boutton_connecte:hover{
+    color: white;
+    text-decoration: none;
+}
+
+div[name="bandeau_entete"]{
+    height: 50px;
+}
+
+a[name="a_nav_bar"]{
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    color: #bbb;
+    font-weight: 700;
+    font-size: 90%;
+    width: 100%;
+    padding: 8px 25px 8px 25px;
+    margin: 0%;
+    display: block;
+}
+a[name="a_nav_bar"]:hover{
+    color: #fff;
+}
+li[name="li_nav_bar"]:hover{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px 4px 0 0;
+}
+
+li[name="li_nav_bar"]{
+    display: inline-block;
+}
+
+ul{
+    margin:0%;
+    padding: 0%;
+}
+/*gestion compte*/ 
+
+
+#logo_compte{
+  color: #fff;
+  text-align: center;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  font-weight: 700;
+  padding-left: 0;
+  padding-right:0; 
+  margin-left: 0;
+  text-decoration: none;
+      background-color: black;
+    border: black;
+}
+
+.btn-group, .btn-group-vertical{
+  float: right;
+}
+.dropdown-menu>li>a {
+    padding: 3px 10px;
+}
+
+div[name="solde"]{
+  display: inline-block;
+  font-weight: normal;
+  font-size: 80%;
+  color: #fff;
+  float: right;
+}
+p[name="point"]{
+  font-weight: 800;
+  font-size: 110%;
+  text-align: center;
+}
+p[name="text_solde"]{
+  text-align: center;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+span[name="points_solde"]{
+  display: inline-block;
+}
+
+p[name="drop_pseudo"]{
+  display: inline;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.btn-group{
+margin-right:10px;
+}
+#logo_compte[aria-expanded="true"]>#double_fleche{
+ -webkit-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+transform: rotate(90deg);
+}
+
+
+#double_fleche{
+  margin-left: 5px;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+.fa{
+    width: 1.28571429em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+#image_logo{
+  width: 120px;
+  margin-top: 1vh;
+}
+
+
+#parametre{
+    border-radius: 4px;
+    background: #f2f2f2;
+    border: 1px solid #e3e3e3;
+    padding: 25px;
+    position: relative;
+}
+
+
+
+p[name="titre_modif"]{
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+button[name="btn_modifier"]{
+    color: black;
+    font-weight: 700;
+    background: transparent;
+    font-size: 90%;
+    border: transparent;
+}
+button[name="btn_modifier"]:hover{
+  text-decoration: underline;
+}
+
+#email{
+    margin-right: 2%;
+}
+#pseudo{
+    margin-right: 2%;
+}
+#compte{
+    width: 100%;
+    margin-right: 2%;
+margin-bottom:1%;
+}
+#bouttonAnnuler{
+float:right;
+margin:0;
+}
+
+p[name="titre"]{
+    color: black;
+    font-weight: 700;
+    margin-bottom: 2%;
+    font-size: 100%;
+}
+#corps{
+    margin: 2%;
+}
+
+#input1{
+   width: 100%;
+   margin-bottom: 1%; 
+}
+
+#input2{
+   width: 100%;
+   margin-bottom: 1%;
+}
+
+#input3{
+   width: 100%; 
+   margin-bottom: 1%;
+}
+
+.help-block {
+    font-size: x-small;
+    font-style: italic;
+}
+
+.form-group{
+    margin:2%;
+}
+
+#inputPassword{
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+#ConfirmInputPassword{
+    width: 100%;
+    margin-bottom: 1%;
+}
+#inputAncienPassword{
+   margin-bottom:2%;
+}
+
+.alert{
+    width: 100%;
+    color: red;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+
+@media (max-width: 767px) {
+    td{
+        font-size: 80%;
+    } 
+    input{
+        margin-bottom: 1%;
+    }  
+    .btn {
+        font-size: 80%;
+        margin-bottom: 1%;
+    }
+    #input1{
+        width: 100%;
+    }
+    #inputPassword{
+        width: 100%;
+    }
+    #ConfirmInputPassword{
+        width: 100%;
+    }
+    #parametre{
+        padding-bottom:15%;
+    }
+    ::-webkit-input-placeholder { font-size: 80%; }
+    ::-moz-placeholder { font-size: 80%; } /* firefox 19+ */
+    :-ms-input-placeholder { font-size: 80%; } /* ie */
+    input:-moz-placeholder { font-size: 80%; }
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  ul[name="nav_bar_entete"]{
+    margin-left: 25%;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  ul[name="nav_bar_entete"]{
+    margin-left: 20%;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  label[name="label_menu"]{
+    font-size: 85%;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 15%;
+  }
+  a[name="a_nav_bar"] {
+    font-size: 85%;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px) {
+  label[name="label_menu"]{
+    font-size: 80%;
+  }
+  a[name="a_nav_bar"] {
+    font-size: 77%;
+    padding: 8px 20px 8px 20px;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 5%;
+  }
+  #image_logo{
+    width: 75px;
+  }
+  #boutton_connecte {
+    font-size: 75%;
+  }
+  #gestion_compte{
+    margin-top: 1vh;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 0%;
+  }
+  #boutton_inscription{
+    font-size: 10px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  label[name="label_menu"]{
+    font-size: 75%;
+  }
+  a[name="a_nav_bar"] {
+    font-size: 75%;
+    padding: 8px 15px 8px 15px;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 0%;
+  }
+  #image_logo{
+    width: 75px;
+  }
+  #boutton_connecte {
+    font-size: 75%;
+  }
+  #gestion_compte{
+    margin-top: 1vh;
+  }
+  #boutton_inscription{
+    font-size: 10px;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 0%;
+  }
+}

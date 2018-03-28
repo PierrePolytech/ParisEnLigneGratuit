@@ -1,0 +1,275 @@
+@media (min-width: 767px) { 
+	a{
+		margin-right: 2vh;
+		margin-left: 2vh;	
+	}
+}
+
+@media (max-width: 767px) { 
+	a{
+		margin-right: 1vh;
+		margin-left: 1vh;
+	}
+}
+
+#gestion_compte{
+  margin-top: 2vh;
+  vertical-align: top;
+  right: 0;
+}
+
+a[name="boutton_entete"]{
+  display: inline;
+}
+
+
+#entete{
+  background-color: black;
+}
+
+#boutton_inscription{
+  font-size: 14px;
+    color: white;
+    font-weight:700;
+    background: -webkit-linear-gradient(#e74042, #b20e10);
+    background: -moz-linear-gradient(#e74042, #b20e10);
+    background: -ms-linear-gradient(#e74042, #b20e10);
+    background: -o-linear-gradient(#e74042, #b20e10);
+}
+#boutton_connecte{
+  color: #bbb;
+  font-weight:700;
+  background: transparent;
+  font-size: 90%;
+}
+
+#boutton_connecte:hover{
+  color: white;
+  text-decoration: none;
+}
+
+#boutton_entete_droite{
+  float: right;
+}
+
+
+a[name="a_nav_bar"]{
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+    color: #bbb;
+    font-weight: 700;
+    font-size: 90%;
+    width: 100%;
+    padding: 8px 25px 8px 25px;
+    margin: 0%;
+    display: block;
+}
+a[name="a_nav_bar"]:hover{
+  color: #fff;
+}
+li[name="li_nav_bar"]:hover{
+  background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px 4px 0 0;
+}
+
+li[name="li_nav_bar"]{
+  display: inline-block;
+}
+
+ul{
+  margin:0%;
+  padding: 0%;
+}
+
+
+#form_connexion{
+  position: absolute;
+  z-index: 4;
+  background-color: #f1f1f1;
+  width: 240px ;
+  right: 25px;
+  top: 40px;
+  border-radius: 5px;
+  text-align: center;
+  border :1px solid #bbb;
+}
+.form-control{
+  width: 200px;
+  margin-left: 20px;
+}
+
+.form-group{
+  display: inline-block;
+  margin-bottom: 1%;
+  margin-top: 0%;
+}
+
+.btn-success{
+  margin-bottom: 5%;
+}
+
+/*gestion compte*/ 
+
+#logo_compte{
+  color: #fff;
+  text-align: center;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+font-weight: 700;
+padding-left: 0;
+padding-right:0; 
+margin-left: 0;
+}
+#logo_compte:hover,#logo_compte[aria-expanded="true"]{
+  color:black;
+}
+
+div[name="solde"]{
+  display: inline-block;
+  font-weight: normal;
+  font-size: 80%;
+  color: #fff;
+  width: 50px;
+  float: right;
+}
+p[name="point"]{
+  font-weight: 800;
+  font-size: 110%;
+  text-align: center;
+}
+p[name="text_solde"]{
+  text-align: center;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+span[name="points_solde"]{
+  display: inline-block;
+}
+
+p[name="drop_pseudo"]{
+  display: inline;
+  font-size: 14px;
+}
+
+.navbar-right{
+  width: 120px;
+  margin: 0%;
+  float: right;
+}
+
+.navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+#logo_compte[aria-expanded="true"]>#double_fleche{
+ -webkit-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+transform: rotate(90deg);
+}
+
+
+#double_fleche{
+  margin-left: 5px;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+.fa{
+    width: 1.28571429em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+#image_logo{
+  width: 120px;
+  margin-top: 1vh;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  ul[name="nav_bar_entete"]{
+    margin-left: 25%;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  ul[name="nav_bar_entete"]{
+    margin-left: 20%;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  label[name="label_menu"]{
+    font-size: 85%;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 15%;
+  }
+  a[name="a_nav_bar"] {
+    font-size: 85%;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px) {
+  label[name="label_menu"]{
+    font-size: 80%;
+  }
+  a[name="a_nav_bar"] {
+    font-size: 77%;
+    padding: 8px 20px 8px 20px;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 5%;
+  }
+  #image_logo{
+    width: 75px;
+  }
+  #boutton_connecte {
+    font-size: 75%;
+  }
+  #gestion_compte{
+    margin-top: 1vh;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 0%;
+  }
+  #boutton_inscription{
+    font-size: 10px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  label[name="label_menu"]{
+    font-size: 75%;
+  }
+  a[name="a_nav_bar"] {
+    font-size: 75%;
+    padding: 8px 15px 8px 15px;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 0%;
+  }
+  #image_logo{
+    width: 75px;
+  }
+  #boutton_connecte {
+    font-size: 75%;
+  }
+  #gestion_compte{
+    margin-top: 1vh;
+  }
+  #boutton_inscription{
+    font-size: 10px;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 0%;
+  }
+}

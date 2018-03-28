@@ -1,0 +1,644 @@
+
+@media (min-width: 767px) { 
+    a{
+        margin-right: 2vh;
+        margin-left: 2vh;   
+    }
+}
+
+@media (max-width: 767px) { 
+    a{
+        margin-right: 1vh;
+        margin-left: 1vh;
+    }
+}
+
+#gestion_compte{
+    margin-top: 2vh;
+    vertical-align: top;
+    right: 0;
+}
+
+a[name="boutton_entete"]{
+    display: inline;
+}
+
+
+#entete{
+    background-color: black;
+}
+
+#boutton_inscription{
+    color: white;
+    font-weight:700;
+    background: -webkit-linear-gradient(#e74042, #b20e10);
+    background: -moz-linear-gradient(#e74042, #b20e10);
+    background: -ms-linear-gradient(#e74042, #b20e10);
+    background: -o-linear-gradient(#e74042, #b20e10);
+}
+#boutton_connecte{
+    color: #bbb;
+    font-weight:700;
+    background: transparent;
+    font-size: 90%;
+}
+
+#boutton_connecte:hover{
+    color: white;
+    text-decoration: none;
+}
+
+div[name="bandeau_entete"]{
+    height: 50px;
+}
+
+a[name="a_nav_bar"]{
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    color: #bbb;
+    font-weight: 700;
+    font-size: 90%;
+    width: 100%;
+    padding: 8px 25px 8px 25px;
+    margin: 0%;
+    display: block;
+}
+a[name="a_nav_bar"]:hover{
+    color: #fff;
+}
+li[name="li_nav_bar"]:hover{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px 4px 0 0;
+}
+
+li[name="li_nav_bar"]{
+    display: inline-block;
+}
+
+ul{
+    margin:0%;
+    padding: 0%;
+}
+
+ul[name="sous-menu"] {
+    background: -webkit-linear-gradient(white, #dddddd);
+background: -moz-linear-gradient(white, #dddddd);
+background: -ms-linear-gradient(white, #dddddd);
+background: -o-linear-gradient(white, #dddddd);
+    border: 1px solid #bbb;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+li[name="infos_sous-menu"].active{
+    background: -moz-linear-gradient(white, #202020);
+    background: -webkit-linear-gradient(white, #202020);
+    background: -ms-linear-gradient(white, #202020);
+    background: -o-linear-gradient(white, #202020);
+}
+li[name="infos_sous-menu"].active a{
+    background: -moz-linear-gradient(white, #202020);
+    background: -webkit-linear-gradient(white, #202020);
+    background: -ms-linear-gradient(white, #202020);
+    background: -o-linear-gradient(white, #202020);
+    color: white;
+}
+
+li[name="infos_sous-menu"]:not(.active):hover {
+    background: -webkit-linear-gradient(white, #bbb);
+background: -moz-linear-gradient(white, #bbb);
+background: -ms-linear-gradient(white, #bbb);
+background: -o-linear-gradient(white, #bbb);
+}
+
+li[name="infos_sous-menu"]:not(.active) a:hover{
+    background: -webkit-linear-gradient(white, #bbb);
+background: -moz-linear-gradient(white, #bbb);
+background: -ms-linear-gradient(white, #bbb);
+background: -o-linear-gradient(white, #bbb);
+ color: black;
+}
+
+a[name="a_nav_bar2"]{
+    color: #555;
+    font-weight:700;
+    background: transparent;
+    font-size: 120%;
+}
+@media (max-width: 1000px) {
+    a[name="a_nav_bar2"] {
+        font-size: 80%;
+    }   
+}
+
+
+/*gestion compte*/ 
+
+
+#logo_compte{
+  color: #fff;
+  text-align: center;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  font-weight: 700;
+  padding-left: 0;
+  padding-right:0; 
+  margin-left: 0;
+  text-decoration: none;
+      background-color: black;
+    border: black;
+}
+
+.btn-group, .btn-group-vertical{
+  float: right;
+}
+.dropdown-menu>li>a {
+    padding: 3px 10px;
+}
+
+div[name="solde"]{
+  display: inline-block;
+  font-weight: normal;
+  font-size: 80%;
+  color: #fff;
+  float: right;
+}
+p[name="point"]{
+  font-weight: 800;
+  font-size: 110%;
+  text-align: center;
+}
+p[name="text_solde"]{
+  text-align: center;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+span[name="points_solde"]{
+  display: inline-block;
+  padding:0;
+}
+
+p[name="drop_pseudo"]{
+  display: inline;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.btn-group{
+margin-right:10px;
+}
+
+
+#logo_compte[aria-expanded="true"]>#double_fleche{
+ -webkit-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+transform: rotate(90deg);
+}
+
+
+#double_fleche{
+  margin-left: 5px;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+.fa{
+    width: 1.28571429em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+#image_logo{
+  width: 120px;
+  margin-top: 1vh;
+}
+/**/
+
+
+
+
+
+p[type="Attente"]{
+    background-color: #bbb;
+    font-weight: bold;
+    color: black;
+}
+
+p[type="Perdu"]{
+    background-color: #b20e10;
+    font-weight: bold;
+    color: black;
+}
+
+p[type="Gagné"]{
+    background-color: green;
+    font-weight: bold;
+    color: black;
+}
+
+a[name="page"]{
+    margin: 1px;
+    background-color: #777;
+    color: white;
+    font-weight: 700;
+    padding: 2px 6px;
+    font-size: 90%;
+}
+a[name="page"]:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+a[class="active"]{
+    background-color: #f1f1f1;
+    color: black;
+    text-decoration: none;
+}
+
+div[name="div_pages"]{
+    text-align: center;
+}
+
+
+
+div[name="entete_paris"]{
+    padding-left: 1%;
+    background: -webkit-linear-gradient(#e6e6e6, #d6d6d6);
+    background: -moz-linear-gradient(#e6e6e6, #d6d6d6);
+    background: -ms-linear-gradient(#e6e6e6, #d6d6d6);
+    background: -o-linear-gradient(#e6e6e6, #d6d6d6);
+}
+
+span{
+    font-weight: bold;
+    padding: 5px;
+}
+
+div[name="paris"]{
+    border-radius:5px;
+    position: relative;
+    margin: 2%;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #ccc;
+}
+
+
+p[name="paris_combine_situation"]{
+    position: absolute;
+    top:0;
+    right:0;
+    width:100px;
+    text-align: center;
+    color: #fff;
+    padding: 0 10px;
+    font-weight: 500;
+    text-shadow: none;
+}
+p[name="situation"]{
+    position: absolute;
+    top:0;
+    right:0;
+    width:25%;
+    text-align: center;
+    color: #fff;
+    padding: 0 10px;
+    font-weight: 500;
+    text-shadow: none;
+}
+
+p[name="mise"]{
+    display: inline;
+    font-weight: bold;
+    padding-left: 1%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+}
+p[name="cote"]{
+    float: right;
+    font-weight: bold;
+    margin-right: 1%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+}
+p[name="texte"]{
+    font-weight: bold;
+    padding-left: 1%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+}
+div[name="entete_matchs"]{
+    margin-bottom: 10px;
+}
+p[name="nom_event"]{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    display: inline;
+    font-style: italic;
+}
+p[name="nom_sport"]{
+    padding-left: 1%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 110%;
+    display: inline;
+}
+p[name="match"]{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    display: inline;
+}
+p[name="vainqueur"]{
+    padding-left: 1%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+}
+
+div[name="sous_paris_combine"]{
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 2%;
+    padding-left: 1%;
+}
+
+div[name="paris_combine"]{
+    border-radius:5px;
+    position: relative;
+    margin: 2%;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #ccc;
+}
+p[name="cote_combine"]{
+    font-weight: bold;
+    margin-right: 1%;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+}
+p[name="texte_combine"]{
+    font-weight: bold;
+    display: inline-block;
+    width: 75%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+}
+p[name="match_combine"]{
+    font-weight: bold;
+    width: 75%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    display: inline;
+}
+p[name="vainqueur_combine"]{
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    margin-bottom: 1%;
+}
+p[name="cote_totale_combine"]{
+    font-weight: bold;
+    display: inline;
+    position: absolute;
+    right: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+}
+p[name="mise_totale_combine"]{
+    font-weight: bold;
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+}
+p[name="situation_combine"]{
+    display: inline-block;
+    position: absolute;
+    right:0;
+    width:15%;
+    text-align: center;
+    color: #fff;
+    padding: 0 10px;
+    font-weight: 500;
+    text-shadow: none;
+    border-radius: 2px;
+}
+div[name="entete_matchs_combine"]{
+    display: inline-block;
+    width: 85%;
+    margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+    p[name="situation_combine"]{
+        width: 20%;
+    }
+}
+
+
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    a[name="a_nav_bar"] {
+        font-size: 80%;
+    }   
+}
+
+
+@media (max-width: 767px) {
+    li[name="infos_sous-menu"] {
+        font-size: 80%;
+        text-align: center;
+    }  
+    div[name="paris_combine"]{
+        font-size: 75%;
+    } 
+    div[name="paris"]{
+        font-size: 75%;
+    } 
+}
+
+span[name="nba"]{
+    color: rgb(31, 31, 31);
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+}
+
+div[name="entete_mes_paris"]{
+    background: -webkit-linear-gradient(#434343, #202020);
+    background: -moz-linear-gradient(#434343, #202020);
+    background: -ms-linear-gradient(#434343, #202020);
+    background: -o-linear-gradient(#434343, #202020);
+    color: #eee;
+    height: 26px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 27px;
+    padding: 0 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    border-radius: 2px;
+    margin: 2%;
+}
+
+div[name="footer_paris_combine"]{
+    padding-left: 1%;
+}
+
+span[choix="Gagné"]{
+    background-color: green;
+    border-radius: 8px;
+    color: #fff;
+    margin-left: 1%;
+}
+
+span[choix="Perdu"]{
+    background-color: #b20e10;
+    border-radius: 8px;
+    color: #fff;
+    margin-left: 1%;
+}
+
+div[name="bottom"]{
+    margin-bottom: 1%;
+}
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  ul[name="nav_bar_entete"]{
+    margin-left: 25%;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  ul[name="nav_bar_entete"]{
+    margin-left: 20%;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  label[name="label_menu"]{
+    font-size: 85%;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 15%;
+  }
+  a[name="a_nav_bar"] {
+    font-size: 85%;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px) {
+  label[name="label_menu"]{
+    font-size: 80%;
+  }
+  a[name="a_nav_bar"] {
+    font-size: 77%;
+    padding: 8px 20px 8px 20px;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 5%;
+  }
+  #image_logo{
+    width: 75px;
+  }
+  #boutton_connecte {
+    font-size: 75%;
+  }
+  #gestion_compte{
+    margin-top: 1vh;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 0%;
+  }
+  #boutton_inscription{
+    font-size: 10px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  label[name="label_menu"]{
+    font-size: 75%;
+  }
+  a[name="a_nav_bar"] {
+    font-size: 75%;
+    padding: 8px 15px 8px 15px;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 0%;
+  }
+  #image_logo{
+    width: 75px;
+  }
+  #boutton_connecte {
+    font-size: 75%;
+  }
+  #gestion_compte{
+    margin-top: 1vh;
+  }
+  #boutton_inscription{
+    font-size: 10px;
+  }
+  ul[name="nav_bar_entete"]{
+    margin-left: 0%;
+    padding: 0%;
+  }
+}
+
+/*Logo sport*/
+
+/*Icone sport*/
+
+[class^="sport-icon-"]{
+    height: 16px;
+    width: 16px;
+    background-image: url("../Images/sports-icons.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+
+.sport-icon-1 { 
+    background-position: -2px -2px;
+}
+
+.sport-icon-2 {
+    background-position: -42px -22px;
+}
+.sport-icon-3 {
+    background-position: -42px -42px;
+}
+.sport-icon-4 {
+    background-position: -22px -62px;
+}
+
+.sport-icon-5 {
+    background-position: -42px -62px;
+}
+.sport-icon-6 {
+    background-position: -62px -62px;
+}
+.sport-icon-7 {
+    background-position: -2px -42px;
+}
+.sport-icon-9 {
+    background-position: -82px -2px;
+}
+.sport-icon-10 {
+    background-position: -82px -62px;
+}
+.sport-icon-11 {
+    background-position: -22px -2px;
+}
+.sport-icon-12 {
+    background-position: -42px -2px;
+}
+.sport-icon-14 {
+    background-position: -82px -22px;
+}
+.sport-icon-17 {
+    background-position: -2px -22px;
+}

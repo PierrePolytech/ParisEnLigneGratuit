@@ -1,0 +1,46 @@
+#presentation_site{
+	margin-top: 20%;
+	text-align: center;
+}
+
+p[name="p_titre"]{
+	font-size: 250%;
+	font-weight: 700;
+}
+
+html,body{
+	background-color: #f1f1f1;
+}
+
+h1{
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 5%;
+}
+
+.help-block{
+	font-size: 60%;
+	font-style: italic;
+}
+
+
+.alert{
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}
+
+.control-label{
+    font-size: 90%;
+}
+
+.container{
+	width: 100%;
+}
+a[name="bouton_retour"]{
+	margin-top: 5px;
+}
+button[name="bouton_inscription"]{
+	float: right;
+	margin-right: 5%;
+}
